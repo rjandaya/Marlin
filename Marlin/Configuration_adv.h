@@ -2402,7 +2402,9 @@
 // @section serial
 
 // The ASCII buffer for serial input
+// TODO: Change to something large to prevent cut-off commands (Octoprint?)
 #define MAX_CMD_SIZE 96
+// #define MAX_CMD_SIZE 500
 #define BUFSIZE 4
 
 // Transmission to Host Buffer Size
